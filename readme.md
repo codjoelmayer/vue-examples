@@ -11,4 +11,12 @@ import 'bootstrap';
 - v-if: Will remove the element from the DOM, and you can also make use of v-else-if and v-else
 - v-show: Will comment on the element, and v-else is not allowed. 
 =======How to bind a style sheet in VueJS using :active======================
+Example: https://vuejs.org/guide/essentials/class-and-style.html#binding-html-classes
+=======How to structure your Vue Portfolio==============
+1. Please make use of Vue 3 not 2
+2. Component: It is a feature that you want to keep reusing within your project.
+3. views: It is referred to as a web page.
+4. There is no need to use a vuex. But you must add router on your application
+5. You need to install bootstrap: https://getbootstrap.com/
+6. NB: When naming a component, make sure it ends with "component.vue" such as HeaderComponent.vue
 -->
